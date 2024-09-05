@@ -1,0 +1,92 @@
+
+.task-create{
+    width: 450px;
+}
+.task-form{
+    display: flex;
+    flex-direction: column;
+}
+.task-form label{
+    margin: 10px 0px;
+}
+
+.task-form input{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.task-form textarea {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.task-form button {
+    margin: 10px 0px;
+    padding: 15px;
+    border: solid green 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.task-form button:hover{
+    background-color: darkgreen;
+}
+
+.task-card{
+    border: 1px solid green;
+    border-radius: 30px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px   
+}
+
+.task-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.btn-delete{
+    background-color: red;
+    color: white;
+    width: 75px;
+    height: 35px;
+    font-size: larger;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-delete:hover{
+    background-color: darkred;
+}
+
+.btn-update{
+    
+        background-color: green;
+        color: white;
+        width: 100px;
+        height: 35px;
+        font-size: larger;
+        border: 0px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-right: 10px;
+}
+
+.btn-update:hover{
+    background-color: darkgreen;
+}
+
+.task-title{
+    margin-bottom: 5px;
+}
