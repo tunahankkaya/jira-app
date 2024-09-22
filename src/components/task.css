@@ -2,6 +2,9 @@
 .task-create{
     width: 450px;
 }
+.task-update{
+    width: 100%;
+}
 .task-form{
     display: flex;
     flex-direction: column;
@@ -33,9 +36,18 @@
     font-size: 20px;
     cursor: pointer;
 }
+.task-update button{
+    margin: 10px 10px;
+    padding: 20px;
+    background-color: blue;
+}
 
 .task-form button:hover{
     background-color: darkgreen;
+}
+
+.task-update button:hover{
+    background-color: darkblue;
 }
 
 .task-card{
@@ -90,3 +102,4 @@
 .task-title{
     margin-bottom: 5px;
 }
+
